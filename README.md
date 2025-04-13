@@ -11,5 +11,5 @@ This is a simple Electron exercise where you build a simple desktop notepad app.
 ## Setup Instructions
 ## Clone the repo
    ```bash
-   git clone https://github.com/YOUR_GITHUB_NAME/electron-notepad.git
+   git clone https://github.com/HaydenK123/electron-notepad
    cd electron-notepad
