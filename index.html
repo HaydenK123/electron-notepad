@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <meta charset="UTF-8">
     <title>Electron Notepad</title>
-  </head>
-  <body>
-    <h1>Electron Notepad</h1>
-    <textarea id="note" rows="10" cols="50" placeholder="Write your note here..."></textarea><br>
-    <button onclick="save()">Save Note</button>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electron Notepad</h1>
+
+        <textarea id="note" rows="10" placeholder="Write your note here..."></textarea>
+        
+        <button onclick="save()">Save Note</button>
+    </div>
 
     <script src="renderer.js"></script>
-  </body>
+</body>
 </html>
